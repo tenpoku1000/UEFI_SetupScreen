@@ -2,8 +2,7 @@
 
 UEFI セットアップ画面への画面遷移を行う UEFI アプリケーションです。
 
-任意のキーを押すと、UEFI セットアップ画面へ切り替わります。
-未対応の環境では、システムがリセットされます。
+任意のキーを押すと、UEFI セットアップ画面へ切り替わります。未対応の環境では、システムがリセットされます。
 
 ## 開発環境
 
@@ -32,6 +31,7 @@ PC の機種によっては、Boot 順序設定変更を恒久的な設定変更
 
 * UEFI_SetupScreen.sln をダブルクリックします。
 * Visual Studio のセキュリティ警告を回避してプロジェクトを開きます。
+![warning](https://raw.githubusercontent.com/tenpoku1000/UEFI_SetupScreen/master/images/MSVC.PNG)
 * Visual Studio の起動後に F7 キーを押下します。efi フォルダ以下に UEFI アプリケーションが生成されます。
 
 ## 謝辞
