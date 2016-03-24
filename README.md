@@ -7,7 +7,7 @@ UEFI セットアップ画面への画面遷移を行う UEFI アプリケーシ
 ## 開発環境
 
 * Visual Studio Community 2015 + Windows SDK for Windows 10
-https://msdn.microsoft.com/ja-jp/windows/hardware/dn913721(v=vs.8.5).aspx
+https://msdn.microsoft.com/ja-jp/windows/hardware/hh852365.aspx
 * 64 ビット版 Windows 10
 * 64 ビット UEFI 対応 PC
 * USB メモリ
@@ -38,6 +38,7 @@ PC の機種によっては、Boot 順序設定変更を恒久的な設定変更
 
 本ソフトウェアは、以下の外部プロジェクトの成果物を利用しています。感謝いたします。
 
+### BSD License
 * gnu-efi http://sourceforge.net/projects/gnu-efi/
 
 ## ライセンス
